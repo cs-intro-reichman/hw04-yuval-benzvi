@@ -88,7 +88,7 @@ public class StringOps {
             }}
             i++;
         }
-        s = s + " ";
+        s = s + "     ";
         return s;
     }
 
