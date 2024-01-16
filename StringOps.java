@@ -88,7 +88,7 @@ public class StringOps {
             }}
             i++;
         }
-        s = s.substring(0, s.length());
+        s = s + " ";
         return s;
     }
 
