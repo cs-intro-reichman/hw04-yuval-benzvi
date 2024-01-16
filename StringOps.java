@@ -25,11 +25,11 @@ public class StringOps {
     String string = args[0];
     //System.out.println(string);
     //System.out.println(capVowelsLowRest(string));
-    //System.out.println(camelCase(string));
-    char chr = 'L';
-    for (int i = 0; i < allIndexOf(string, chr).length; i++) {
-        System.out.print(allIndexOf(string, chr)[i] + " ");
-        }
+    System.out.println(camelCase(string));
+    //char chr = 'L';
+    //for (int i = 0; i < allIndexOf(string, chr).length; i++) {
+    //   System.out.print(allIndexOf(string, chr)[i] + " ");
+    //    }
     }
 
     public static String capVowelsLowRest (String string) {
@@ -88,7 +88,7 @@ public class StringOps {
             }}
             i++;
         }
-        s = s + " ";
+        s = s.substring(0, s.length());
         return s;
     }
 
